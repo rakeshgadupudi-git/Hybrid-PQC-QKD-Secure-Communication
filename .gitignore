@@ -1,0 +1,72 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Logs & runtime outputs
+logs/
+*.log
+*.jsonl
+
+# Frontend / Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+.vite/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Exclude Markdown files per request
+*.md
+**/*.md

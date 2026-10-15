@@ -1,0 +1,9 @@
+numpy>=1.26
+cryptography>=42.0
+kyber-py>=1.0
+streamlit>=1.35
+plotly>=5.20
+pandas>=2.1
+matplotlib>=3.8
+rich>=13.7
+pytest>=8.0
